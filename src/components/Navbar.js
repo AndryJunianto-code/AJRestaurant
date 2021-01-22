@@ -31,6 +31,7 @@ export default function Navbar() {
   const handleToggle = () => {
     setOpenNav(!openNav);
   };
+  console.log("hello");
 
   return (
     <nav>
