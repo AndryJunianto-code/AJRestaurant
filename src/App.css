@@ -5,6 +5,13 @@
 }
 
 :root {
+  --computer: 1200px;
+  --laptop: 1024px;
+  --tablet: 768px;
+  --phone: 480px;
+}
+
+:root {
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
   --mainTransition: all 0.3s linear;
@@ -473,6 +480,7 @@ nav {
   height: var(--singleImgHeight);
   width: var(--singleImgWidth);
 }
+
 .single-img-container {
   position: relative;
   height: var(--singleImgHeight);
